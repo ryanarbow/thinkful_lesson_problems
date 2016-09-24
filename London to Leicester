@@ -1,0 +1,13 @@
+Leicester = 120
+London = 0
+walking = True
+
+while walking:
+    if Leicester > London:
+        print("Still walking")
+        Leicester -=2
+        London +=1
+    else:
+        walking = False
+
+print("Met on mile {}".format(London))
